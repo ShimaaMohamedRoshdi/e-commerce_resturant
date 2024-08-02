@@ -1,0 +1,62 @@
+header{
+    background-image: url('../../assets/3\ \(3\).jpg') ;
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height:auto ;
+    overflow: hidden;
+    padding: 25px 0px;
+    margin-top: 0px;
+
+}
+header .row{
+    margin: 60px 0px;
+   
+}
+ header h1{
+    color: #43121D;
+    font-size: 40px;
+    font-family: 'Tajwal',sans-serif;
+    line-height: 60px;
+    font-weight: bold;
+    width: 80%;
+
+}
+header p{
+    color: #777;
+    font-family: 'Tajwal',sans-serif;
+    margin: 15px 0px;
+
+}
+header button{
+    width: 150px;
+    height: 50px;
+    background-color: #7c0f28;
+    text-align: center;
+    color: white;
+    border: 1px  solid  #7c0f28;
+    box-sizing: border-box;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+header button:last-of-type{
+    background-color: #fff;
+    color: black;
+}
+header button:hover{
+    transition: .2s ease-in-out;
+    
+}
+header button:first-of-type:hover{
+    background-color: #fff;
+    color: #7c0f28;
+}
+header button:last-of-type:hover{
+    background-color: #7c0f28;
+    color: #fff;
+}

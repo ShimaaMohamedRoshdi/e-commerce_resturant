@@ -1,0 +1,587 @@
+.numbers{
+    background-color: #7c0f28;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.numbers .row{
+    margin: 10px 0px;
+}
+.numbers h2{
+  
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+}
+.numbers h6{
+ text-transform: uppercase;   
+ color: #fff;
+ font-weight: bold;
+ letter-spacing: 1px;
+}
+/* css pride section */
+
+.pride{
+background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+
+    overflow: hidden;
+    margin-top: 60px;
+    
+}
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+  
+}
+.pride h3{
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #7c0f28;
+    font-family: 'Tajawal';
+    line-height: 50px;
+
+}
+.pride p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+   margin-top: 15px;
+}
+.pride button{
+  background-color: #7c0f28;
+  border: 1px solid #7c0f28;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  transition:.2s #7c0f28 ;
+ 
+}
+.pride button a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pride button:hover a{
+    color:#7c0f28 ;
+}
+.pride button:hover{
+ background-color: #fff;
+   
+
+}   
+
+/* start css to the ingrediants section */
+.ingredients {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    overflow: hidden;
+}
+.ingredients h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #7c0f28;
+    font-family: 'Tajawal';
+    line-height: 50px;
+}
+.ingredients p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+   margin-top: 15px;
+}
+.ingredients ul li{
+    list-style-type: square;
+    color: #333;
+    margin-top: 10px;
+}
+.ingredients ul{
+    padding: 0px;
+
+}
+.ingredients button{
+  background-color: #7c0f28;
+  border: 1px solid #7c0f28;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  transition:.2s #7c0f28 ;
+ 
+}
+.ingredients button a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ingredients button:hover a{
+    color:#7c0f28 ;
+}
+.ingredients button:hover{
+ background-color: #fff;
+   
+
+}   
+.ingredients img{
+    max-width: 100%;
+    border-radius: 10px     ;
+
+}
+section{
+    display: flex;
+}
+section .row{
+align-items: center;
+justify-content: center;
+
+}
+
+/* css to the paralex section */
+.paralex {
+    background: url("../../assets/1\ \(2\).jpg") center no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.paralex .row{
+    margin: 50px 0px ;
+}
+.paralex h2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: #7c0f28;
+    font-family: 'Tajawal';
+    line-height: 50px;
+ 
+}
+
+.paralex p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+   margin-top: 10px;
+}
+.paralex a{
+    color: #7c0f28;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-decoration: none !important;
+}
+/* 
+
+ start css to the blogs section */
+
+.blogs {
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+
+
+}
+.blogs .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs .row:first-child{
+text-align: center;
+margin: 25px 0px;
+}
+
+.blogs h2{
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: #7c0f28;
+    font-family: 'Tajawal';
+    line-height: 50px;
+ 
+
+}
+.blogs p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+   margin-top: 10px;
+}
+.blogs  .box img{
+    max-width: 90%;
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+  
+}
+.blogs h5{
+    color: #7c0f28;
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.blogs .box span{
+    /* display: block; */
+    color: #444;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ 
+}
+.blogs .box  h6{
+    font-size: 25px;
+    color: #7c0f28;
+
+}
+
+.blogs button{
+    width: 140px;
+    height: 40px;
+  text-align: center;
+    background-color: #7c0f28;
+    border: 1px solid #7c0f28 ;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .3s #7c0f28;
+ 
+   
+    
+}
+
+.blogs button a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.blogs button:hover a{
+    color:#7c0f28 ;
+}
+.blogs button:hover{
+ background-color: transparent;
+   
+
+} 
+
+/* start css for slider section */
+
+ /* Target the container of the carousel */
+.slider {
+    background-color: #7c0f28;
+    border: 1px solid #7c0f28;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px 0px !important; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Target images within the carousel */
+  .slider img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 150PX ; 
+  }
+  
+  /* Target captions within the carousel */
+  .slider .carousel-caption {
+   
+    color: black; /* Change to color property to .carousel-caption */
+  }
+  .slider .carousel{
+   background-color: #fff;
+   margin: 40px 0px;
+   border: 1px solid #fff;
+   box-sizing: border-box;
+   border-radius:10px  ;
+  
+}
+  
+  
+  .slider .carousel-caption p {
+    color: black;
+    font-size: 17px;
+    line-height: 30px;
+  }
+  
+  .slider .carousel-caption span {
+    color: #7c0f28;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .slider .carousel-caption .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 15%;
+    margin-right: 15%;
+    list-style: none;
+    width: 60px;
+
+  }
+  .slider .carousel-indicators button{
+    width: 60px;
+    background-color: #7c0f28;
+    height: 10px;
+    border: 1px solid  #7c0f28;
+    margin: 5px 5px 15px 5px;
+  }
+
+  /* css frequently section */
+ 
+  .about-inline {
+    padding: 50px 0;
+}
+.about-inline h3 {
+    color: #7c0f28;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+.text-center {
+    text-align: center;
+}
+.frequently {
+  
+    padding: 40px 0;
+  }
+  
+  .about-inline {
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .faq {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .faq h4 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .faq p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .space100 {
+    height: 100px; /* Example space between sections */
+  }
+  
+  /* paralex css */
+ 
+.parallax-content2 {
+    overflow: auto;
+    width: 100%;
+   padding: 14px 18px;
+   height: 200px;
+   width: 100%;
+   background-image: url('../../assets/2\ \(3\).jpg');
+   background-size: cover;
+   background-attachment: fixed; 
+  
+}
+.parallax-content2 h4{
+    color: #fff;
+    padding: 20px 0px;
+}
+.parallax-content2 button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #7c0f28;
+    border: 1px solid #7c0f28 ;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .3s #7c0f28;
+   
+}
+
+.parallax-content2 button a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.parallax-content2 button:hover a{
+    color:#7c0f28 ;
+}
+.parallax-content2 button:hover{
+ background-color: transparent;
+} 
+
+/* 
+Hurry up css section */
+.intro-newsletter {
+    width: 55%;
+    margin: 0px auto;
+}
+ .intro-newsletter input {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #e5e5e5;
+    color: #000;
+    font-weight: 700;
+}
+.intro-newsletter button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #7c0f28;
+    border: 1px solid #7c0f28 ;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .3s #7c0f28;
+   
+}
+
+.intro-newsletter button a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.intro-newsletter button:hover a{
+    color:#7c0f28 ;
+}
+.intro-newsletter button:hover{
+ background-color: transparent;
+} 
+.hurry-inline h3{
+    color: black;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+   
+}
+.Hurrry{
+    padding: 100px 0px;
+}
+
+/* footer style css */
+.footer {
+    background-color: #7c0f28;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-icons li a:hover {
+    opacity: 0.8;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .copyright a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
